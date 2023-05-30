@@ -58,6 +58,28 @@ This repository contains a single-instance module called "button" that provides 
 - Call the update function of the button module periodically to update the debounced state.
 - Utilize the button module's functions to detect button states, edges, and perform necessary actions based on them.
 
+ ## Testing
+ To build and run the tests for the button module, you can use cmake. Here's how:
+ -Make sure you have cmake installed on your system.
+- Open a terminal and navigate to the project directory.
+- Create a build directory:
+ 
+ ```
+ mkdir build
+ cd build
+ ```
+ Generate the build files with cmake:
+
+ ```
+ cmake ..
+```
+ Build and run the test:
+ 
+ ```
+ make coverage_test_button
+ ```
+ The Unity tests will be executed, and you will see the test results in the terminal. and when you open the build folder you will see a index.html file  Ensure that all the tests pass successfully.
+ 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
 
