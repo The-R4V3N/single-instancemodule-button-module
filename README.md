@@ -25,6 +25,7 @@
 # Singel instance Button Module
  
  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+ ![Lines of code](https://tokei.rs/b1/github/The-R4V3N/single-instance-button-module)
 
 This repository contains a single-instance module called "button" that provides debounce functionality for a push button. It also includes a program (main.cpp) that utilizes the button module according to the specified requirements.
   
